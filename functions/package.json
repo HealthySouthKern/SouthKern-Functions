@@ -1,0 +1,21 @@
+{
+  "name": "southkern-firebase-functions",
+  "version": "1.0.0",
+  "description": "Firebase cloud functions for sendbird authentication",
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "author": "James Schmiechen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "firebase-admin": "^6.0.0",
+    "firebase-functions": "^2.0.5"
+  }
+}
